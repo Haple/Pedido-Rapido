@@ -1,3 +1,3 @@
-# Firebase Contact Form
+# Pedido Rápido
 
-Mobile first, responsive contact from that sends data to a firebase database
+Sistema desenvolvido como requisito parcial para obtenção do título Técnico em Informática, pela Etec de Nova Odessa

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pedido Rápido</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="brand"><span>Pedido</span> Rápido</h1>
+    <div class="wrapper animated bounceInLeft">
+      <div class="company-info">
+        <h3>Trailer Paulista</h3>
+        <ul>
+          <li><i class="fa fa-shopping-basket"></i> <a href="produtos.html">Controle de Produtos</a></li>
+
+          <li><i class="fa fa-thumb-tack"></i> <a href="pedidos.html">Ver pedidos</a></li>
+
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Anote um pedido</h3>
+        <div class="alert">Seu pedido foi anotado!</div>
+        <form id="produtosForm">
+          <p class="full">
+            <label>Mesa</label>
+            <input type="number" name="mesa" id="mesa" preço="0" required>
+          </p>
+
+          <h4>Lanches</h4>
+          <p id="lanchesFiller" class="full">
+            
+
+          </p>
+
+          <h4>Bebidas</h4>
+          <p id="bebidasFiller" class="full">
+            
+
+          </p>
+
+          <p class="full">
+            <button class="fa fa-save" type="submit"> Anotar</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

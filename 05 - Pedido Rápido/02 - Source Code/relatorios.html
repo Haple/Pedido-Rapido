@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pedido Rápido</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="brand"><span></span>Relatórios</h1>
+    <div class="wrapper animated bounceInLeft">
+      <div class="company-info">
+        <h3>Trailer Paulista</h3>
+        <ul>
+
+          <li><i class="fa fa-shopping-basket"></i> <a href="produtos.html">Controle de Produtos</a></li>
+
+          <li><i class="fa fa-sign-out"></i> <a href="" onClick="sair()">Sair</a></li>
+
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Selecione a data do relatório</h3>
+        <div class="alert"> ... </div>
+        <form id="relatoriosForm">
+          <p class="full">
+            <label></label>
+            <input type="date" name="dataRelatorio" id="dataRelatorio" required>
+          </p>
+          <p class="full">
+            <button class="fa fa-search" type="submit"> Pesquisar</button>
+          </p>
+
+          <p id="relatoriosFiller" class="full">
+
+
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="js/relatorios.js"></script>
+</body>
+</html>
